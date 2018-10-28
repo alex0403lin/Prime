@@ -7,7 +7,7 @@ namespace Prime
         static void Main(string[] args)
         {
             bool isPrime;
-            int number = 100;
+            int number = Convert.ToInt32(Console.ReadLine());
             int i, j;
 
             for (i = 2; i <= number; i++)
